@@ -117,7 +117,7 @@ function createElm (vnode, parentElm, refElm) {
     }
   }
 ```
-![alt 属性文本](./img/createDOM.jpeg)
+![alt 属性文本](../img/createDOM.jpeg)
 #### 删除节点
 >如果某些节点再新的VNode中没有而在旧的oldVNode中有，那么就需要把这些节点从旧的oldVNode中删除。
 >删除节点非常简单，只需在要删除节点的父元素上调用removeChild方法即可。
